@@ -1,0 +1,59 @@
+*{/*Margin y padding de la pagina de listaAdultos*/
+    margin: 0px;
+    padding: 0px;
+}
+header h1{/*Modificacion del titulo de la pagina*/
+    color: red;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 190px;
+    left: 290px;
+}
+body{/*Fondo del cuerpo*/
+    background-image: url(/img/marcoantiguedad.jpg);
+    background-repeat: no-repeat;
+    background-size: 1280px 914px;
+}
+.Cuerpo {/*Marco del cuerpo*/
+    border: solid 5 px;
+    width: 10px;
+    height: 10px;
+    background-color: aqua; 
+}
+.Flexbox{/*Flexblox del menu*/
+    display: flexbox;
+    position: absolute;
+    top: 200px;
+    left: 227.3px;
+}
+.Flexbox div{/*Tamaño de los div y color*/
+    width: 498px;
+    height: 60px;
+    border: solid 5px;
+    margin: 150px;
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+    color:deepskyblue;
+}
+a{/*Modificacion de los links del menu*/
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+button{/*Tamaño del boton y posicionamiento*/
+    font-size: 25px;
+    text-transform: uppercase;
+    color:deepskyblue;
+    margin-right: 220px;
+}
+footer{/*Posicion del footer*/
+    position: absolute;
+    bottom: 190px;
+    left: 135px;
+}
+
+
+

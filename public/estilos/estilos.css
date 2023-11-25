@@ -1,0 +1,418 @@
+
+*{/*Margin y padding de la pagina del index*/
+    padding: 0px;
+    margin: 23px;
+}
+nav{/*Posicionamiento de los navbars superiores*/
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+    font-size: 25px;
+}
+section nav{/*Posicionamiento del menú despegable y el buscador*/
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: -156px; 
+    left:-125px;
+}
+nav div aside {/*Posicionamiento del titulo precio navbar*/
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 55px;
+    left: 34px;
+}
+nav div section{/*Posicionamiento del navbar de clasificación de nuestros libros*/
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 55px;
+    left: 140px;
+}
+nav section ul a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+form button{/*Posicionamiento del botón buscar*/
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 120px;
+    left: 1039px;
+}
+form div{/*Posicionamiento del label de buscar*/
+    font-family: 'Times New Roman', Times, serif;
+    width: 160px;
+    position: absolute;
+    top: 98px;
+    left: 844px;
+}
+.modificacionCabecera{/*Posicionamiento del Fondo del titulo de la Cabecera*/
+    width: 11.9in;
+    height: 2in;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 994.5px 218px;
+    background-image: url("/img/Libros.jpg");   
+    margin-top: 28px;
+    margin-left: -64px;
+    padding-left: 8px;
+    padding-top: 10px;
+    position: absolute;
+    left: 69.8px;
+    top: 265px;
+}
+div h1{/*Tipo de letra del titulo de la Cabecera y posicionamiento*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 485%;
+    color: whitesmoke;
+    position: absolute;
+    top: 38.5px;
+    left: 40px;
+}
+h1 strong{
+    text-decoration-style: solid red;
+}
+.libroEdad{/*Contenedor y color de fondo de toda la pagina sobre el gif*/
+    background-color: beige;  
+    margin-top: 18px;
+    margin-left: 34px;
+    margin-right: 13.6px;
+    padding-left: 16px;
+    padding-right: 5px;
+    border-top: solid 5px;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+}
+.libroEdad img{/*Color de fondo de la imagen gif y posicionamiento*/
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    padding-left: 2px;
+    padding-top: 10px;
+    margin-left: 185.4px;
+    margin-bottom: 22px;
+}
+.modificacionCuerpo{/*Modificacion del body y el color*/
+    display: flexbox;
+    margin-top: 2px;
+    margin-left: -8px;
+    margin-right: -19px;
+    padding-top: 615px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 1362px;
+    border-top:double 5px black;	
+    border-right:double 5px black;
+    border-bottom:double 5px black;
+    border-left:double 5px black;
+    background-color: lightsteelblue;
+}
+.menuSuperior div{/*Posicionamiento y tamaño de la división de la cabecera en el menu superior*/
+    border-bottom: double 6px black;
+    width: 1108px;
+    position: absolute;
+    top: -121px;
+    left: -71px;
+}
+.menuSuperior{/*Posicionamiento del menu superior y la letra mayuscula de este*/
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 710px; 
+    display: inline-block;
+}
+.menuSuperior a{/*Estilo del menu superior*/
+    text-decoration: none;
+}
+.menuSuperior ul li{/*Color del menu superior y la direccion en bloque*/
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    background-color: cyan;
+    text-align: center;
+    font-size: 47px;
+    border-top:solid 4px black;	
+    border-right:solid 4px black;
+    border-bottom:solid 4px black;
+    border-left:solid 4px black;
+    margin-right: 40px;
+    margin-left: 4.5px;
+    margin-top: 51.5px;
+}
+.borderIzquierdo div{/*Posicionamiento y tamaño de la caja izquierda*/
+    border-right: double 6px black;
+    position: absolute;
+    left: 30px;
+    top: 785px;
+    height: 1205px;
+    margin-left: 301px;
+}
+.tituloDiv1{/*Posicionamiento del título ¿Quienes Somos?*/
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 36px;
+    left: -240px;
+}
+.Parrafo1{/*Posicionamiento del primer párrafo del título ¿Quienes Somos?*/
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: absolute;
+    top: 93px;
+    left: -317px;
+}
+.subtituloPuntos strong{/*Posicionamiento del subitulo en letra negrita con dos puntos*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16.3px;
+    position: absolute;
+    top: 363px;
+    left: -317px;
+}
+.Parrafo2{/*Posicionamiento del segundo párrafo del título ¿Quienes Somos?*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: absolute;
+    top: 432px;
+    left: -333.9px;
+}
+.Espaciado1{/*Espaciado de la palabra "centros de enseñanza y otras instituciones"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: 75px;
+    left: 9px;
+}
+.Espaciado2{/*Espaciado de la palabra "instituciones"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: -5px;
+    left: -23px;
+}
+.Espaciado3{/*Espaciado de la palabra "Socilitud y pedido con las demas líneas"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: 132px;
+    left: -22px;
+}
+.Espaciado4{/*Espaciado de la palabra "de libros"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: -4px;
+    left: 10px;
+}
+.Espaciado5{/*Espaciado de la palabra "extranjero"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: -4px;
+    left: 10px;
+}
+.Espaciado6{/*Espaciado de la palabra "del mundo"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+}
+.Parrafo3{/*Posicionamiento de las tres penúltimas líneas del parrafo 2*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: 35px;
+    left: -23px;
+}
+.Parrafo4{/*La penúltima línea llamada "Envíos a cualquier parte del mundo"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: 58px;
+    left: 0px;
+}
+.Parrafo5{/*La ultima línea llamada "Cuenta Cliente"*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    top: 119px;
+    left: 2px;
+}
+.tituloDiv2{/*Posicionamiento del título Objetivo*/
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 842px;
+    left: -317px;
+}
+.Descripcion1{/*Posicionamiento del párrafo del titulo de Objetivo*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+    position: absolute;
+    top: 893px;
+    left: -314px;
+}
+.tituloDiv3{/*Posicionamiento del título Misión */
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1011px;
+    left: -317px;
+}
+.Descripcion2{/*Posicionamiento del párrafo del título de Misión*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+    position: absolute;
+    top: 1064px;
+    left: -314px;
+}
+.Subtitulo{/*Este es el titulo de la lista principal*/
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: absolute;
+    top: 828px; 
+    left: 407px;
+}
+.flexbox div{/*Color de la lista principal y bordes*/
+    width: 300px;
+    margin: 3px;
+    background-color:lightseagreen;
+    border: solid 5px black;
+    color: red;
+    text-align: center;
+    font-size: 35px
+}
+.flexbox a{/*Este es para sacar la decoracion de los links del menu principal*/
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.flexbox{/*Posicionamiento de la lista principal y flexbox*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 857px;
+    left: 430px;
+}
+.borderDiv div{/*Borde de la lista principal*/
+    border: solid 5px black;
+}
+.imagenGif{/*Imagen gif del centro de la página*/
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1503px;
+    left: 462px;
+}
+.borderDerecho div{/*Posicionamiento y tamaño de la caja derecha*/
+    border-left: double 6px black;
+    position: absolute;
+    left: 809px;
+    top: 785px;
+    height: 1205px;
+}
+.Carrousel{/*Carrousel de la página*/
+    width: 369.9px;
+    height: 470px;
+    position: absolute;
+    top: 766px;
+    left: 728.4px;
+}
+.parrafoDerecho p{/*Parráfo del div derecho*/
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 339px;
+    left: -4px;
+}
+.borderFooter div{/*Poscionamiento y tamaño de la división del footer*/
+    border-top: double 6px black;
+    width: 1110px;
+    position: absolute;
+    top: 1990px;
+    left: -5px;
+}
+.tituloContactanos{/*Titulo de Contactanos*/
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 80px;
+    left: 288.3px;
+}
+.listaCuerpo li{/*Este es para la lista de los iconos y el color de borde*/
+    display: inline-block;
+    padding: 3rem;
+    background-color: aqua;
+    text-align: center;
+    width: 145px;
+    height: 145px;
+    border: solid 4px black;
+}
+.listaCuerpo li i{/*Este es para darle color a los iconos*/
+    color: white;
+    position: absolute;
+    font-size: 80px;
+}
+.listaCuerpo{/*Posicionamiento de todos los iconos*/
+    position: absolute;
+    top: 258px;
+    left: 3px;
+}
+.iconFacebook{/*Posicionamiento del icono de Facebook*/
+    position: absolute;
+    left: 55px;
+    top: 8.5px;
+}
+.iconInstagram{/*Posicionamiento del icono de Instagram*/
+    position: absolute;
+    left: 243px;
+    top: 8.5px;
+}
+.iconTwitter{/*Posicionamiento del icono de Twitter*/
+    position: absolute;
+    left: 438px;
+    top: 8.5px;
+}
+.iconWhatsaap{/*Posicionamiento del icono de Whatsaap*/
+    position: absolute;
+    left: 636px;
+    top: 8.5px;
+}
+.iconCorreo{/*Posicionamiento del icono de Correo*/
+    position: absolute;
+    left: 824.5px;
+    top: 8.5px;
+}
+.modificacionFooter{/*Esto es del Pie de Pagina y posicionamiento de la primera frase del footer*/
+    position: absolute;
+    text-align: justify;
+    top: 460px;
+    left: 155px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.modificacionFooter p{/*Posicionamiento de la segunda frase del footer*/
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.modificacionFooter section{/*Posicionamiento de la tercera frase del footer*/
+    position: absolute;
+    top: 53px;
+    left: 88px;
+}
+
+
+ 
+
+
+
+
+
+
+
+

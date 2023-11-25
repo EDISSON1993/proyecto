@@ -1,0 +1,15 @@
+function displayBoxGlitter(divName, iconName) 
+{
+	var box = getObj(divName);  
+	var icon = getObj(iconName);
+
+	if (box.style.display == 'block')
+	{
+		box.style.display = 'none';
+		return;
+	}
+	
+	box.style.display = 'block';
+	box.style.top = (getOffsetPosition(icon, 'Top')+icon.height+1)+'px';
+	box.style.left = getOffsetPosition(icon, 'Left') + 'px';
+}

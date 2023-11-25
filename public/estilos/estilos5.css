@@ -1,0 +1,65 @@
+*{/*Margin y padding de la pagina de Cuentos*/
+    margin: 0px;
+    padding: 0px;
+}
+header h1{/*Modificacion del titulo de la pagina*/
+    color: red;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 222px;
+    left: 220px;
+}
+body{/*Fondo de imagen del cuerpo*/
+    background-image: url("/img/marcoinfantil3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1280px 915px;
+}
+.Cuerpo {/*Marco del Cuerpo*/
+    border: solid 5 px;
+    width: 10px;
+    height: 10px;
+    background-color: aqua; 
+}
+.Flexbox{/*Flexblox del menu*/
+    display: flexbox;
+    position: absolute;
+    top: 338px;
+    left: 368px;
+}
+.Flexbox div{/*Tamaño de los div y color*/
+    width: 450px;
+    height: 25px;
+    border: solid 5px;
+    margin: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+    color:deepskyblue;
+}
+a{/*Modificacion de los links del menu*/
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+button{/*Tamaño del primer boton y posicionamiento*/
+    font-size: 25px;
+    text-transform: uppercase;
+    color:deepskyblue;
+    }
+footer{/*Posicion del footer y de el primer boton*/
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+footer div{/*Posicion del segundo boton*/
+    position: absolute;
+    left: 880px;
+    bottom: 0px;
+}
+footer div button{/*Tamaño del segundo boton*/
+    width: 382px;
+    height: 34px;
+}

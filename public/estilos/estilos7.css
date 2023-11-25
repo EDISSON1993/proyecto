@@ -1,0 +1,106 @@
+*{/*Margin y padding de la pagina de Cuentos Fantasticos y de Hadas*/
+    margin: 0px;
+    padding: 0px;
+}
+header h1{/*Modificacion del titulo de la pagina*/
+    color: red;
+    font-size: 94px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+body{/*Fondo de color de la página*/
+    background-color:wheat;
+}
+h2{/*Tamaño de la letra y posicion del subtitulo del primer cuento*/
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 133px;
+    left: 30px;
+}
+img{/*Posicion de la imagen del primer cuento y tamaño*/
+    position: absolute;
+    top: 211px;
+    left: 30px;
+    width: 570px;
+    height: 453px;  
+}
+aside div p{/*Posicionamiento del primer parrafo del primer cuento*/
+    position: absolute;
+    top: 208.5px;
+    left: 30px;
+    margin-left: 578px; 
+}
+p{/*Posicionamiento del segundo parrafo del primer cuento*/
+    font-size: 24px;
+    position: absolute;
+    top: 704px;
+    left: 30px; 
+    text-align: justify;
+    margin-right: 30px;
+}
+.parrafoTercero{/*Posicionamiento del tercer parrafo del primer cuento*/
+    position: absolute;
+    top: 1274px;
+    left: 30px;
+    margin-left: 0px;
+}
+aside h2{/*Tamaño y posicion del subtitulo del segundo cuento*/
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1895px;
+    left: 30px;
+}
+.Contenedor img{/*Posicion de la imagen del segundo cuento*/
+    position: absolute;
+    top: 1975px;
+    left: 30px;  
+    width: 570px;
+    height: 452px;  
+}
+.Contenedor div p{/*Posicionamiento del primer parrafo del segundo cuento*/
+    position: absolute;
+    top: 1971.5px;
+    left: 30px;
+    margin-left: 578px;
+}
+.Contenedor p{/*Posicionamiento del segundo parrafo del segundo cuento*/
+    position: absolute;
+    top: 2471px;
+    left: 30px;
+}
+.Contenedor .parrafoSexto p{/*Posicionamiento del tercer parrafo del segundo cuento*/
+    position: absolute;
+    top: 3211px;
+    left: 30px;
+    margin-left: 0px;
+}
+a{/*Modificacion de los links del boton*/
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{/*Tamaño del boton del primer boton y posicion*/
+    font-size: 25px;
+    text-transform: uppercase;
+    color:deepskyblue;
+    width: 350px;
+    height: 32px;
+    position: absolute;
+    bottom: 32px;
+}
+footer div button{/*Tamaño del segundo boton y posición*/
+    width: 450px;
+    height: 32px;
+    position: absolute;
+    bottom: 32px; 
+    left: 750px;
+}
+footer{/*Posicion del footer*/
+    position: absolute;
+    top: 4073px;
+    left: 31.5px;
+}

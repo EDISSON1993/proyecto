@@ -1,0 +1,66 @@
+*{/*Margin y padding de la pagina de listaAdolescentes*/
+    margin: 0px;
+    padding: 0px;
+}
+ header h1{/*Modificacion del titulo de la pagina*/
+    color: red;
+    font-size: 83px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 343px;
+    left: 5px;
+}
+body{/*fondo del body*/
+    background-image: url("/img/marcoLibro.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1280px 914px;
+} 
+.contenedor{/*Borde del fondo medio*/
+    border: transparent;
+    width: 661px;
+    height: 446.1px;
+    position: absolute;
+    top: 210.4px;
+    left: 310px;  
+}
+.Flexbox{/*Flexblox del menu*/
+    display: flexbox;
+    position: absolute;
+    top: 2px;
+    left: 12.5px;
+}
+.Flexbox div{/*Tamaño de los div y color del menu*/
+    width: 380px;
+    height: 48px;
+    border: solid 5px;
+    margin: 122px;
+    background-color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+    color:deepskyblue;
+}
+a{/*Modificacion de los links del menu*/
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+button{/*Tamaño de todos los botones*/
+    font-size: 20px;
+    text-transform: uppercase;
+    color:deepskyblue;
+    margin: 3.6px;
+}
+footer div{/*Tamaño del tercer boton y posicionamiento*/
+    width: 498px;
+    height: 32px;
+    position: absolute;
+    bottom: 1.8px;
+    left: 432px;
+}
+footer{/*Posicionamiento del footer*/
+    position: absolute;
+    bottom: 17px;
+    left: 12px;
+}
+
